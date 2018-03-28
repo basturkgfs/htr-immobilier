@@ -30,15 +30,11 @@ body{
 .slide{
     height: 320px
 }
-#slide-gauche{
+.slide-gauche{
     background-color: #a1cd5b
 }
 #sous-menu{
     height: 81px;
-}
-#footer{
-    height: 500px;
-    background-color: #36689d;
 }
 .marge-interne{
     padding-top: 15px;
@@ -91,6 +87,7 @@ body{
 .image-slide{
     padding-left: 0px !important;
     padding-right: 0px !important;
+    
 }
 a:visited, a:link{
     color: black;
@@ -130,7 +127,7 @@ li{
     color: white
 }
 .footer-cadre{
-    height: 200px;
+    height: auto;
     margin-top: 10px
 }
 #footer-container{
@@ -139,6 +136,10 @@ li{
     padding-right: 25px;
     padding-bottom: 25px;
     min-height: 225px;
+    /*background-color: #36689d;*/
+}
+.footer-bg{
+    background-color: #36689d;
 }
 #footer-mention{
     max-width: 300px;
@@ -149,8 +150,17 @@ li{
 .footer-box{
     width: 300px;
     float: left;
+    /*padding: 10px*/
 }
 .footer-box-margin{
     margin-left: 25px;
     /*margin-right: 25px;*/
+}
+.copyright{
+    font-style: italic;
+    margin-bottom: 5px;
+   color: white
+}
+.footer-text{
+   color: white
 }
